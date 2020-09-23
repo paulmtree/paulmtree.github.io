@@ -1,1 +1,1 @@
-Sitemap: /zolan/sitemap.xml
+Sitemap: https://sakura.abts.io/sitemap.xml

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sakura Jekyll Theme</title><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Read Me | Sakura Jekyll Theme</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Read Me" />
+<meta name="author" content="Kimfucious" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A clean Jekyll theme with baked in Bootstrap 4, responsive images, and more…" />
+<meta property="og:description" content="A clean Jekyll theme with baked in Bootstrap 4, responsive images, and more…" />
+<link rel="canonical" href="https://sakura.abts.io/README.html" />
+<meta property="og:url" content="https://sakura.abts.io/README.html" />
+<meta property="og:site_name" content="Sakura Jekyll Theme" />
+<meta name="google-site-verification" content="uubLfpcORmDWkM8pI-yKODVVZD3VSpUYFSwkQJcOuZE" />
+<script type="application/ld+json">
+{"description":"A clean Jekyll theme with baked in Bootstrap 4, responsive images, and more…","author":{"@type":"Person","name":"Kimfucious"},"@type":"WebPage","url":"https://sakura.abts.io/README.html","headline":"Read Me","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body> 
+<!-- NAV -->
+<nav class="navbar navbar-expand-md navbar-light py-xs-2 py-md-4">
+  <div class="container">
+    <a href="/" class="navbar-brand">
+      <h2 class="d-none d-md-inline align-middle pl-3 text-primary">Sakura</h2>
+      <h3 class="d-md-none d-inline align-middle pl-3 text-primary">Sakura</h3>
+    </a>
+    <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/about/" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/archive/" class="nav-link">Archive</a>
+        </li>
+        <li class="nav-item">
+          <a href="/docs/" class="nav-link">Docs</a>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn-search nav-link" data-toggle="modal" data-target="#search-modal">
+            <i class=" fas fa-search "></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<header>
+  <div class="jumbotron mb-0 d-flex align-items-center flex-column justify-content-center text-center min-100 jumbotron-bg" id="header">
+    <div class="display-1">Read Me</div>
+</div>
+</header> 
+<div id="search-modal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div id="search-input"></div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="search-results" class="container d-none mt-md-3">
+          <ul id="results-container" class="list-group list-group-flush px-0"></ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <img src="/assets/images/normal/search-by-algolia.png" alt="Search by Algolia" width="120" height="17">
+      </div>
+    </div>
+  </div>
+</div>
+  <section id="" class="container pt-3">
+  <div class="row">
+    <div class="col">
+<article>
+        <h1 id="sakura-jekyll-theme">Sakura Jekyll Theme</h1>
+
+<p><img src="https://travis-ci.org/kimfucious/sakura.svg?branch=master" alt="Build Status"></p>
+
+<blockquote>
+  <p>For a live demo of this template, go <a href="https://sakura.abts.io">here</a>.</p>
+
+  <p>The git repository for this theme can be found <a href="https://github.com/kimfucious/sakura">here</a>.</p>
+</blockquote>
+
+<p>I cobbled together this Jekyll template because I could never find a template that did/had exactly what I wanted and didn’t have a bunch of stuff that I didn’t want. I also have strived to keep things as simple as possible, while documenting as best I can, with the right amount of detail, so that anyone can use this template without too much tinkering yet allowing tinkering so that others can make it their own template if so desired.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>As responsive as can be (always room for improvement)</li>
+  <li>Auto-generates responsive <em>feature images</em> in the build process</li>
+  <li>Bootstrap 4 and Font Awesome 5 are “baked in.”</li>
+  <li>Brand icons for social links in the footer via Font Awesome</li>
+  <li>Clean, collapsible navbar that is ready to roll, yet customizeable</li>
+  <li>Code syntax highlighting with Dracula theme</li>
+  <li>Customizeable Jumbotron headers with responsive background images</li>
+  <li>Documentation that tries not to make your head explode</li>
+  <li>Generic Jekyll “docs” collection ready for your stuff</li>
+  <li>Home page that lists all posts as Bootstrap cards with pictures &amp; pagination</li>
+  <li>Instant search by Algolia renders in a tidy modal</li>
+  <li>HTML5 <code class="highlighter-rouge">&lt;picture&gt;</code> &amp; <code class="highlighter-rouge">&lt;figure&gt;</code> elements, using Liquid tags in posts</li>
+  <li>A smattering of Bootstrap’s “.list-group” class to make things fancy</li>
+  <li>Nicely automated, fairly extensive build process, using Gulp</li>
+  <li>Override Bootstrap variables, easy peasy (make it yours!)</li>
+  <li>Pre-built <code class="highlighter-rouge">about</code>, <code class="highlighter-rouge">archive</code>, and <code class="highlighter-rouge">collection</code> static pages to to what you will with</li>
+  <li>Photo captions, using HTML 5 <code class="highlighter-rouge">&lt;figcaption&gt;</code> &amp; Bootstrap <code class="highlighter-rouge">.figure-caption</code> class</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>In case you don’t already know this, you’re going to need Ruby installed on your system before using Jekyll (and this theme). I am a big fan of not re-writing documentation, so I’ll offer you instructions <a href="https://www.ruby-lang.org/en/documentation/installation/">here</a>.</p>
+
+<p>You’re also going to want to install <a href="https://www.npmjs.com/get-npm">npm</a> (comes with Node.js) or <a href="https://yarnpkg.com/lang/en/docs/install/#mac-stable">yarn</a>. More on this later.</p>
+
+<h3 id="using-this-theme">Using this theme</h3>
+
+<p>Once you’ve got the above done, you can follow the instructions below to use this theme for your own Jekyll site.</p>
+
+<p>Here’s description of what you’re about to do:</p>
+
+<ol>
+  <li>Clone this theme from Github (via HTTPS or SSH)</li>
+  <li>Install the Bundler gem <code class="highlighter-rouge">gem install bundler</code> (if you don’t already have it)</li>
+  <li>Run <code class="highlighter-rouge">bundle install</code>
+</li>
+  <li>Run npm/yarn install (you need to have installed Node.js at least, plus maybe yarn to go further from above)</li>
+  <li>Run <code class="highlighter-rouge">yarn install-theme</code> (my preference), or <code class="highlighter-rouge">gulp install-theme</code>, or <code class="highlighter-rouge">npm run install-theme</code>
+</li>
+</ol>
+
+<p>That’s it; five steps to <strong>glory</strong>!</p>
+
+<p>This reminds me of a song from long ago: <a href="https://www.youtube.com/watch?v=WP1TMVlDIcU">Ten Easy Lessons</a>.</p>
+
+<blockquote>
+  <p>“Be a star, play the guitar, entertain your friends. Be the life of the party!” <cite>~ J.J. Cale</cite></p>
+</blockquote>
+
+<p>The below will walk you through each one of the above steps with a bit more detail.</p>
+
+<h4 id="clone-this-repo">Clone this repo</h4>
+
+<h5 id="using-ssh">Using SSH</h5>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:kimfucious/sakura.git
+</code></pre></div></div>
+
+<p>or</p>
+
+<h5 id="using-https">Using HTTPS</h5>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/kimfucious/sakura.git &lt;<span class="o">=</span> HTTP
+</code></pre></div></div>
+
+<p>Either of these should bring everything down to your machine into a folder named, <code class="highlighter-rouge">sakura</code>.</p>
+
+<p>Change into the <code class="highlighter-rouge">sakura</code> directory and give it a look see…</p>
+
+<p>Your file tree will look something like this:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">.</span>
+├── 404.html
+├── Gemfile
+├── LICENSE.txt
+├── README.md
+├── _assets
+├── _config.yml
+├── _docs
+├── _includes
+├── _layouts
+├── _plugins
+├── _posts
+├── favicon.ico
+├── gulpfile.js
+├── index.html
+├── package.json
+├── pages
+├── publish.sh
+├── search.json
+├── yarn-error.log
+└── yarn.lock
+</code></pre></div></div>
+
+<h4 id="get-your-ruby-gems">Get your ruby gems</h4>
+
+<p>Jekyll runs on Ruby. And it’s assumed that you installed it per the prerequisites mentioned above.</p>
+
+<p>Run the following commands in the <code class="highlighter-rouge">sakura</code> folder.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>bundler
+bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p>These commands will install the Bundler gem and then install all the gems in the <code class="highlighter-rouge">Gemfile</code>, using Bundler.</p>
+
+<h4 id="run-npmyarn-install">Run npm/yarn install</h4>
+
+<p>To get more, essential stuff, you’ll need to run either <code class="highlighter-rouge">npm install</code> or <code class="highlighter-rouge">yarn install</code> to bring down the source files, including Bootstrap, jQuery, etc.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":confused:" alt=":confused:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f615.png" height="20" width="20"> While this may seem like a lot of stuff to bring down for a stupid template, most of it is development dependencies to help you make this theme your own.</p>
+</blockquote>
+
+<p>Once that’s done (and it may take a while), you need to run two manual Gulp tasks. I’ve intentionally made these manual, leaving them out of the build process for a bit more control over the source. You only have to do this once, or at least until you decide you want to use more packages or update them.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"> The following task is destructive to any SCSS changes you may make after running this task the first time. I suggest that you run it only once for the initial install.</p>
+</blockquote>
+
+<h4 id="run-npmyarn-install-theme">Run npm/yarn install-theme</h4>
+
+<p>Run the following from the root of the <code class="highlighter-rouge">sakura</code> folder:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">yarn</span> <span class="nx">install</span><span class="o">-</span><span class="nx">theme</span>
+</code></pre></div></div>
+
+<p>This will copy all of Bootstrap’s SCSS files into the <code class="highlighter-rouge">_assets/scss</code> folder and all needed JS source to the <code class="highlighter-rouge">_assets/js/vendor/node</code> folder.</p>
+
+<p>The SCSS will get compiled along with other SCSS into CSS during the build process, and the JS will get compiled along with other JS files into the <code class="highlighter-rouge">main.min.js</code> file during the build process.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> If the Gulp command isn’t working, it’s because Gulp is not installed globally via npm/yarn. You can execute non global commands by prefixing them with <code class="highlighter-rouge">node_modules/.bin</code>, like this:</p>
+</blockquote>
+
+<h4 id="server-up">Server Up</h4>
+
+<p>If you see this, after running <code class="highlighter-rouge">yarn install-theme</code>, you’re all good!</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nx">Browsersync</span><span class="p">]</span> <span class="nx">Access</span> <span class="nx">URLs</span><span class="p">:</span>
+ <span class="o">-------------------------------------</span>
+       <span class="nx">Local</span><span class="p">:</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//localhost:3000</span>
+    <span class="nx">External</span><span class="p">:</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//192.168.1.10:3000</span>
+ <span class="o">-------------------------------------</span>
+          <span class="nx">UI</span><span class="p">:</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//localhost:3001</span>
+ <span class="nx">UI</span> <span class="nx">External</span><span class="p">:</span> <span class="nx">http</span><span class="p">:</span><span class="c1">//192.168.1.10:3001</span>
+ <span class="o">-------------------------------------</span>
+<span class="p">[</span><span class="nx">Browsersync</span><span class="p">]</span> <span class="nx">Serving</span> <span class="nx">files</span> <span class="k">from</span><span class="p">:</span> <span class="nx">_site</span><span class="o">/</span>
+</code></pre></div></div>
+
+<p>Open <a href="http://localhost:3000">http://localhost:3000</a> in your browser to view the site, if it hasn’t already opened in your default browser.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> To stop running the server, press <code class="highlighter-rouge">ctrl-c</code> where the server is running. To start the server again (which includes the Jekyll build process), run <code class="highlighter-rouge">yarn serve</code> from the sakura directory.</p>
+</blockquote>
+
+<blockquote>
+  <p><img class="emoji" title=":exclamation:" alt=":exclamation:" src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png" height="20" width="20"> While you might be tempted to run <code class="highlighter-rouge">bundle exec jekyll serve</code>, don’t do it! This site has been painstakingly crafted to leverage the best experience by using BrowserSync and Gulp tasks. <code class="highlighter-rouge">gulp serve</code> (or <code class="highlighter-rouge">yarn serve</code>) is your friend. Enjoy it…</p>
+</blockquote>
+
+<h4 id="the-_site-directory">The _site Directory</h4>
+
+<p>The <code class="highlighter-rouge">gulp serve</code> command performs the Jekyll build process, which creates the <code class="highlighter-rouge">_site</code> directory, like the below:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_site
+├── 404.html
+├── LICENSE.txt
+├── README.md &lt;<span class="o">=</span> the file you are reading now
+├── about &lt;<span class="o">=</span> sample page
+├── archive &lt;<span class="o">=</span> sample page
+├── assets &lt;<span class="o">=</span> sample page
+├── cardigan-butcher &lt;<span class="o">=</span> sample post
+├── code-snippets &lt;<span class="o">=</span> sample post
+├── dexteriore &lt;<span class="o">=</span> sample post
+├── docs &lt;<span class="o">=</span> sample collection directory
+├── favicon.ico
+├── figure-element &lt;<span class="o">=</span> sample post
+├── index.html &lt;<span class="o">=</span> compiled <span class="s2">"home"</span> page with pagination
+├── jean-shorts &lt;<span class="o">=</span> sample post
+├── page2 &lt;<span class="o">=</span> page two off the index.html page created by pagination
+├── picture-element &lt;<span class="o">=</span> sample post
+├── ready-sample-one &lt;<span class="o">=</span> sample post
+├── search.json &lt;<span class="o">=</span> instant search results file
+└── sitemap.xml &lt;<span class="o">=</span> sitemap generated from jekyll-sitemap plugin
+</code></pre></div></div>
+
+<blockquote>
+  <p>The <code class="highlighter-rouge">_site</code> directory is where Jekyll puts your compiled site on build. You can read more about the Jekyll directory structure <a href="https://jekyllrb.com/docs/structure/">here</a>.</p>
+</blockquote>
+
+<h3 id="publish-your-site">Publish your site</h3>
+
+<p>When you’re ready, and not that you are at the moment, publish the <code class="highlighter-rouge">_site</code> directory.</p>
+
+<p>For publishing options, checkout <a href="https://surge.sh/help/getting-started-with-surge">surge</a> and/or <a href="https://www.netlify.com/blog/2017/05/11/migrating-your-jekyll-site-to-netlify/">netlify</a>. There are other options, but these two are pretty slick.</p>
+
+<p>I haven’t worked out if/how to make this work on Github Pages. My initial thoughts are that if Jekyll does it with their docs, maybe I should too. That said, Netlify (and Surge) makes things so easy, I haven’t gotten around to it yet.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>You don’t really need to know how this theme works in order to use it. You can simply create your posts, using Markdown, and save them in the <code class="highlighter-rouge">_posts</code> folder, if you simply want to blog.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> Take a moment to check out the sample posts for some further tips on using this template.</p>
+</blockquote>
+
+<h3 id="now-its-up-to-you">Now, it’s up to you</h3>
+
+<p>Time to generate some cool content!</p>
+
+<p>If you’re ready to create your first post, go for it! Just create a new markdown file in the <code class="highlighter-rouge">_posts</code> folder. If you have the server running, your post should appear in your browser a short while after you save it.</p>
+
+<p>If you want some more info on creating posts, read <a href="https://jekyllrb.com/docs/posts/">here</a>.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> Be sure to name your post file correctly (e.g. year-month-day-title.md)!</p>
+</blockquote>
+
+<p>Further, to delete, modify, or add new content, do this in the <code class="highlighter-rouge">_posts</code>, <code class="highlighter-rouge">pages</code>, and/or the <code class="highlighter-rouge">_docs</code> folders. Jekyll will tear down and rebuild the <code class="highlighter-rouge">_site</code> folder contents accordingly with each new build.</p>
+
+<p>Most likely, you’ll want to customize a few things, and the stuff below should guide you on how to do just that.</p>
+
+<h3 id="components">Components</h3>
+
+<h4 id="posts">Posts</h4>
+
+<p>Usually, people use Jekyll as a blog. Blogs are composed of posts. The main <code class="highlighter-rouge">index.html</code> file, the home page, of this site lists a paginated set of all posts (written in Markdown) that have been created within the <code class="highlighter-rouge">_posts</code> folder.</p>
+
+<p>The main <code class="highlighter-rouge">index.html</code> file looks like this:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">pagination</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+
+{% include postcards.html %}
+{% include pagination.html %}
+</code></pre></div></div>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> The raw/endraw tags above and found elsewhere on this page (visible only on Github) are only there to display code snippets in this README.md file correctly on a Jekyll site without actually processing the code. Be sure to not use them for real code.</p>
+</blockquote>
+
+<p>You’ll soon realize, if you haven’t already, that this theme relies heavily on the use of includes.</p>
+
+<p>I’ve opted to list posts on the <code class="highlighter-rouge">index.html</code> page as Bootstrap “cards”. The cards work pretty well and are responsive width-wise; however, they can vary by height, which might bother those with OCD tendencies. I’ve decided to use Bootstrap’s “.card-deck” class to make the heights uniform.</p>
+
+<p>If you don’t like cards, you can display paginated posts in a list format by swapping out “postcards” above to “posts” like below:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">pagination</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+
+{% include posts.html %}
+{% include pagination.html %}
+</code></pre></div></div>
+
+<h5 id="pagination-on-the-home-page">Pagination on the Home Page</h5>
+
+<p>Once you have more than a few posts, your home page, archives, and docs will begin to fill up. Pagination allows your posts to be split across several pages that are navigatable using Bootstrap pagination controls.</p>
+
+<p>Pagination is enabled on the <code class="highlighter-rouge">index.html</code>, <code class="highlighter-rouge">archive.html</code>, and <code class="highlighter-rouge">docs.html</code> pages with the <code class="highlighter-rouge">enabled: true</code> front-matter entries as defined in <code class="highlighter-rouge">_layouts</code>. Here’s and example from <code class="highlighter-rouge">archives.html</code>:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Archive</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/archive/</span>
+<span class="na">pagination</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">per_page</span><span class="pi">:</span> <span class="m">10</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>The maximum number of posts per page can be controlled by the <code class="highlighter-rouge">per_page</code> entry under the <code class="highlighter-rouge"># Pagination</code> section in the <code class="highlighter-rouge">_config.yml</code> file globally or on each page by adjusting the front matter variables. Change this to whatever you want.</p>
+
+<p>Collections are handled slightly different, based on how the jekyll-pagination-v2 plugin works.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Documentation</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/docs/</span>
+<span class="na">pagination</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">collection</span><span class="pi">:</span> <span class="s">docs</span>
+  <span class="na">per_page</span><span class="pi">:</span> <span class="m">5</span>
+  <span class="na">sort_field</span><span class="pi">:</span> <span class="s">title</span>
+  <span class="na">sort_reverse</span><span class="pi">:</span> <span class="no">false</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> Until further notice, you need to manually add a <code class="highlighter-rouge">date</code> variable to each and every collection post; otherwise, you won’t be able to index the site using for Algolia search via the <code class="highlighter-rouge">yarn index</code> command.</p>
+</blockquote>
+
+<blockquote>
+  <p><img class="emoji" title=":zap:" alt=":zap:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a1.png" height="20" width="20"> Normally, you’d need to reset the server to see any changes made in <code class="highlighter-rouge">config.yml</code>; however, because we’re using some handy Gulp watch tasks, the site will rebuild and BrowserSync will reload <em>automagically</em>.</p>
+</blockquote>
+
+<h4 id="pages">Pages</h4>
+
+<p>This site has a few static pages (other than index.html): <code class="highlighter-rouge">about.html</code>, <code class="highlighter-rouge">archive.html</code>, and <code class="highlighter-rouge">docs.html</code>. Each of these is “hard-coded” as a link in the <code class="highlighter-rouge">_includes/navbar.html</code> file, which serves as the site’s navbar. Edit as needed/wanted there.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> You can modify the text between the HTML anchor tags in the <code class="highlighter-rouge">_includes/navbar.html</code> file to change what things took like on the navbar without having to change the underlying folder names:</p>
+</blockquote>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"nav-item"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/docs/"</span> <span class="na">class=</span><span class="s">"nav-link"</span><span class="nt">&gt;</span>Change me!<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/li&gt;</span>
+</code></pre></div></div>
+
+<h5 id="abouthtml">about.html</h5>
+
+<p>The about page is a simple, static page that uses a “card” with a little CSS shadowing for depth. Edit it to your heart’s desire at <code class="highlighter-rouge">pages/about.html</code>.</p>
+
+<h5 id="archivehtml">archive.html</h5>
+
+<p>The archive page is a simple, static page with a sprinkling of Liquid logic to list out all of the posts found in the <code class="highlighter-rouge">_posts</code> folder. It uses Bootstrap’s “.list-group” classes to format the list a little nicer than a plain-jane <code class="highlighter-rouge">&lt;ul&gt;</code>.</p>
+
+<p>Follow the white rabbit to <code class="highlighter-rouge">_includes/archive.html</code> if you want to fiddle with this.</p>
+
+<h5 id="docshtml">docs.html</h5>
+
+<p>Collections in Jekyll are curious things. I invite you to read about them <a href="https://jekyllrb.com/docs/collections/">here</a>.</p>
+
+<p>I like collections because they fit a niche use case where pages and posts don’t quite cut the mustard.</p>
+
+<p>This template gives you a very generic “docs” setup that you can customize however you see fit. Don’t ask me about sorting collections, as I have not figured that out yet. It seems lacking.</p>
+
+<p>This also uses Bootstrap’s “list-group” classes, as I’ve grown fond of how they look with their top-bottom borders.</p>
+
+<h3 id="core-html-structure">Core HTML Structure</h3>
+
+<h4 id="tldr">tl;dr</h4>
+
+<p>You need to surround all content within the layouts with the <code class="highlighter-rouge">head.html</code> and <code class="highlighter-rouge">footer.html</code>, or Jekyll will not be able to produce valid html.</p>
+
+<h4 id="details">Details</h4>
+
+<p>This theme leverages a lot of include files. Two key files found in the <code class="highlighter-rouge">_includes</code> folder are: <code class="highlighter-rouge">head.html</code> (not header) and <code class="highlighter-rouge">footer.html</code>. It’s important to understand that the <code class="highlighter-rouge">&lt;body&gt;</code> and <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tags are split across these two files.</p>
+
+<p>All pages generated by Jekyll via this theme will use the <code class="highlighter-rouge">head.html</code> file to “open” the beginning of each html file, and the <code class="highlighter-rouge">footer.html</code> file to “close” the html file.</p>
+
+<p>The layouts (found in <code class="highlighter-rouge">_layouts</code>) surround the content with <code class="highlighter-rouge">head.html</code> and <code class="highlighter-rouge">footer.html</code>, using the <a href="https://jekyllrb.com/docs/templates/">Liquid templating syntax</a> like below:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="sx">% include </span><span class="n">head</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
+{{ content }</span><span class="p">}</span>
+<span class="p">{</span><span class="sx">% include </span><span class="n">footer</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
+</span></code></pre></div></div>
+
+<h3 id="navbarhtml--bootstrap-navbar">navbar.html = bootstrap navbar</h3>
+
+<p>The <code class="highlighter-rouge">_includes/navbar.html</code> file is a bootstrap style navbar with a left-side brand and right-aligned menu entries for static pages.</p>
+
+<p>You’ll need to edit it manually for your own links at <code class="highlighter-rouge">_includes/navbar.html</code>.</p>
+
+<p>The navbar is included in the layout files by adding it like this:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="sx">% include </span><span class="n">head</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
+{% include navbar.html %}</span> <span class="o">&lt;=</span> <span class="n">here</span>
+<span class="p">{{</span> <span class="n">content</span> <span class="p">}}</span>
+<span class="p">{</span><span class="sx">% include </span><span class="n">footer</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
+</span></code></pre></div></div>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> Don’t forget to sandwich your files between <code class="highlighter-rouge">head.html</code> and <code class="highlighter-rouge">footer.html</code> includes.</p>
+</blockquote>
+
+<h3 id="bootstrap-baked-in">Bootstrap baked-in</h3>
+
+<p>Bootstrap (4.1.1 at present) has been implemented to work with this template.</p>
+
+<p>In brief, <em>all</em> Bootstrap SCSS source files have been downloaded to <code class="highlighter-rouge">_assets/scss/bootstrap</code>. Bootstrap is imported (among other scss files) via <code class="highlighter-rouge">_assests/scss/main.scss</code>, which ultimately gets compiled by the build process to <code class="highlighter-rouge">_/site/css/main.css</code>.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> The compiled file is a css file, not scss.</p>
+</blockquote>
+
+<p>I’ve whittled down a sizeable chunk of Bootstrap CSS (not used by this theme) by commenting out imports in the <code class="highlighter-rouge">_assets/scss/bootstrap/bootstrap.scss</code> file. When you first start out and run the manual gulp task to copy Bootstrap’s SCSS files to the <code class="highlighter-rouge">_assets/scss</code> folder, all of these comments wiped out. Use the below as a guide to recomment them out, and further adjust as needed.</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s2">"functions"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"variables"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"mixins"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"root"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"reboot"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"type"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"images"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"code"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"grid"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"tables"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"forms"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"buttons"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"transitions"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"dropdown"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"button-group"</span><span class="p">;</span>
+<span class="c1">// @import "input-group";</span>
+<span class="c1">// @import "custom-forms";</span>
+<span class="k">@import</span> <span class="s2">"nav"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"navbar"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"card"</span><span class="p">;</span>
+<span class="c1">// @import "breadcrumb";</span>
+<span class="k">@import</span> <span class="s2">"pagination"</span><span class="p">;</span>
+<span class="c1">// @import "badge";</span>
+<span class="k">@import</span> <span class="s2">"jumbotron"</span><span class="p">;</span>
+<span class="c1">// @import "alert";</span>
+<span class="c1">// @import "progress";</span>
+<span class="k">@import</span> <span class="s2">"media"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"list-group"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"close"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"modal"</span><span class="p">;</span>
+<span class="k">@import</span> <span class="s2">"tooltip"</span><span class="p">;</span>
+<span class="c1">// @import "popover";</span>
+<span class="c1">// @import "carousel";</span>
+<span class="k">@import</span> <span class="s2">"utilities"</span><span class="p">;</span>
+<span class="c1">// @import "print";</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> If you run the <code class="highlighter-rouge">gulp copy:bootstrap-scss</code> task, the commenting will again be wiped out and <em>all</em> imports will be included in the next build.</p>
+</blockquote>
+
+<p>The ability to override Bootstrap variables is enabled the first line in the <code class="highlighter-rouge">_assets/scss/main.scss</code> file:</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s2">"../_assets/scss/custom/_variables"</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>With the above line in place, you can modify the <code class="highlighter-rouge">_assets/scss/custom/_variables.scss</code> file to override Bootstrap’s default variables. For example, you can change the primary color like the below:</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$primary</span><span class="p">:</span> <span class="mh">#be132d</span><span class="p">;</span> <span class="c1">// china red</span>
+</code></pre></div></div>
+
+<p>The JavaScript bits of Bootstrap, including jQuery and Popper.js, have been copied to the <code class="highlighter-rouge">_assets/js/vendor/node</code> folder.</p>
+
+<p>The build proces concantanates all js files (putting jQuery first, and Popper.js before Bootstrap) into a single file, <code class="highlighter-rouge">main.min.js</code> that ultimately finds it’s way to the <code class="highlighter-rouge">_site/assets/js/</code> and <code class="highlighter-rouge">assets/js</code> folders.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> Note that there are <code class="highlighter-rouge">_assets</code> and <code class="highlighter-rouge">assets</code>. While this may be confusing, there is a method, to this madness. Think of <code class="highlighter-rouge">_assets</code> (with the underscore) as where you put source, and <code class="highlighter-rouge">assets</code> (without the underscore) where processed source is put after a Gulp task has run. <code class="highlighter-rouge">_site/assets</code> is where Jekyll compiles/copies stuff to from <code class="highlighter-rouge">assets</code> on build.</p>
+</blockquote>
+
+<h3 id="font-awesome-5">Font Awesome 5</h3>
+
+<p>This theme imports a small number of Font Awesome Fonts (SVG with JS) as described <a href="https://fontawesome.com/get-started/svg-with-js">here</a>. As with all the other js files, the <code class="highlighter-rouge">_assets/js/vendor/fontawesome-all.min.js</code>, <code class="highlighter-rouge">_assets/js/pretty/vendor/fa-brands.js</code>, <code class="highlighter-rouge">_assets/js/pretty/vendor/fa-solid.js</code> files get concantenated into the <code class="highlighter-rouge">main.min.js</code> file during build.</p>
+
+<p>The files are limited so as to keep the size of the JS files down.</p>
+
+<blockquote>
+  <p><img class="emoji" title=":point_up:" alt=":point_up:" src="https://github.githubassets.com/images/icons/emoji/unicode/261d.png" height="20" width="20"> The reason that <code class="highlighter-rouge">fa-brands</code> and <code class="highlighter-rouge">fa-solid</code> are in the “pretty” folder is so that you can add or remove whatever icons your want. The build process will uglify them and get them into <code class="highlighter-rouge">main.min.js</code>.</p>
+</blockquote>
+
+<p>You can read about how to use Font Awesome <a href="https://fontawesome.com/how-to-use/svg-with-js">here</a>.</p>
+
+<p>At present, they are only usable via HTML, as I didn’t see a big need to use them in markup, .esp with emojis enabled. There is a <a href="https://gist.github.com/23maverick23/8532525">Jekyll Plugin</a> that will let you do this, but it’s not on the Github Pages safe list, so I’ve elected not to use it.</p>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>Bug reports and pull requests are welcome on GitHub at <a href="https://github.com/kimfucious/sakura">https://github.com/kimfucious/sakura</a>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the <a href="http://contributor-covenant.org">Contributor Covenant</a> code of conduct.</p>
+
+<h2 id="credits-and-resources">Credits and Resources</h2>
+
+<ul>
+  <li><a href="https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433">A Guide to Responsive Images with Ready-to-Use Templates</a></li>
+  <li><a href="https://caniuse.bitsofco.de/">Can I Use Embed</a></li>
+  <li><a href="https://www.webstoemp.com/blog/responsive-images-pipeline-with-gulp/">Building a simple responsive images pipeline with Gulp</a></li>
+  <li>
+<a href="https://experimentingwithcode.com/creating-a-jekyll-blog-with-bootstrap-4-and-sass-part-1/">Creating a Jekyll Blog with Bootstrap 4 and Sass - Part 1</a> - all <a href="https://experimentingwithcode.com/archive/">five parts</a>
+</li>
+  <li><a href="https://github.com/filamentgroup/loadCSS">Filament Group - loadCSS</a></li>
+  <li><a href="https://gist.github.com/23maverick23/8532525">Font Awesome in Markdown Jekyll plugin</a></li>
+  <li><a href="https://mademistakes.com/articles/jekyll-static-comments/">Going Static: Episode II — Attack of the Comments</a></li>
+  <li><a href="https://github.com/robwierzbowski/jekyll-picture-tag">Jekyll Picture Tag</a></li>
+  <li><a href="https://github.com/jekyll/jemoji">Jemoji plugin</a></li>
+  <li><a href="https://www.laroberto.com/publishing-in-netlify-via-travisci/">Publishing in Netlify via TravisCI</a></li>
+  <li><a href="https://hipsum.co">Hipster Ipsum</a></li>
+  <li><a href="https://mademistakes.com/articles/using-jekyll-2017/">How I’m Using Jekyll in 2017</a></li>
+  <li><a href="https://blog.webjeda.com/instant-jekyll-search/">Instant Jekyll Search</a></li>
+  <li><a href="https://jaspervdj.be/lorem-markdownum/">Lorem Markdownnum</a></li>
+  <li><a href="https://picsum.photos">Lorem Pictum</a></li>
+  <li><a href="https://savaslabs.com/2016/10/19/optimizing-jekyll-with-gulp.html">Optimizing Jekyll Performance with Gulp</a></li>
+  <li><a href="https://staticman.net/docs/">Staticman</a></li>
+  <li><a href="https://cesium.com/blog/2016/02/03/cesium-website-continuous-integration/">Website Continuous Integration with Travis CI, Jekyll, gulp, and GitHub</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>The theme is available as open source under the terms of the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+      </article>
+    </div>
+  </div>
+</section>
+<footer class="py-3 bg-light">
+  <div class="container">
+    <div class="row footer align-items-center">
+      <div class="col-xssm-6 text-muted text-center d-xssm-none">
+        © abts.io 2020
+      </div>
+      <div class="col-xssm-6 text-muted d-none d-xssm-block">
+        © abts.io 2020
+      </div>
+      <div class="col-xssm-6 text-center d-xssm-none">
+         <div class="social-links">
+  <a target="_blank" href="https://github.com/kimfucious" title="Github">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="mailto:example@example.com" title="email">
+    <i class="fas fa-envelope-square"></i>
+  </a>
+  <a target="_blank" href="https://facebook.com/" title="Facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <!-- <a target="_blank" href="https://plus.google.com/" title="Google Plus">
+    <i class="fab fa-google-plus"></i>
+  </a> -->
+  <a target="_blank" href="https://linkedin.com/in/kimaford" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a target="_blank" href="https://twitter.com/" title="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a target="_blank" href="https://slack.com/" title="Slack">
+    <i class="fab fa-slack"></i>
+  </a>
+</div> 
+      </div>
+      <div class="col-xssm-6 text-right d-none d-xssm-block">
+         <div class="social-links">
+  <a target="_blank" href="https://github.com/kimfucious" title="Github">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="mailto:example@example.com" title="email">
+    <i class="fas fa-envelope-square"></i>
+  </a>
+  <a target="_blank" href="https://facebook.com/" title="Facebook">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <!-- <a target="_blank" href="https://plus.google.com/" title="Google Plus">
+    <i class="fab fa-google-plus"></i>
+  </a> -->
+  <a target="_blank" href="https://linkedin.com/in/kimaford" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a target="_blank" href="https://twitter.com/" title="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a target="_blank" href="https://slack.com/" title="Slack">
+    <i class="fab fa-slack"></i>
+  </a>
+</div> 
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- scripts -->
+<script src="/assets/js/main.min.js"></script>
+</body>
+
+</html>
