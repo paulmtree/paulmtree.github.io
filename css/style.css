@@ -85,7 +85,7 @@
 		font-style: italic;
 	}
 	
-	p, ul, ol, dl, table
+	ul, ol, dl, table
 	{
 		margin-bottom: 1em;
 	}
@@ -842,8 +842,8 @@
 /*********************************************************************************/
 	.picture{
 		position: relative;
-		left: 200px;
-		bottom: 100px;
+		left: 400px;
+		bottom: 280px;
 	}
 	#avatar .picture {
 			border-radius: 50%;
@@ -862,6 +862,21 @@
 	#avatar_desc .text {
 		display: inline-block;
 	}
+	/* Name */
+	#name {
+		position: absolute;
+		display: inline-block;
+		float: left;
+		left: 670px;
+		bottom: 480px;
+		font-size: 3em;
+		font-weight: 400;
+		background-color: rgba(18, 44, 52, 1);
+		color: #fff;
+		padding: 25px 20px 25px 20px;
+		letter-spacing: .05em;
+		border-radius: 5px;
+	}
 	/* Resume Button */
 	.text {
 		-webkit-appearance: button;
@@ -872,19 +887,18 @@
 		text-transform: uppercase;
 		float: left;
 		position: relative;
-		left: 460px;
-		bottom: 270px;
+		left: 655px;
+		bottom: 400px;
 		text-decoration: none;
 		letter-spacing: 0.1em;
 		font-size: 1.4em;
-		font-weight: 400;
-		color: #222;
+		color: #fff;
 		padding: 2px 20px 2px 20px;
 		line-height: 50px;
-		background-color: #9ed2bf;
+		background-color: rgba(18, 44, 52, 1);
 		word-break: break-all;
 		border-radius: 5px;
-		box-shadow: 0px 0px 0px 2px #222 inset;
+		box-shadow: 0px 0px 0px 2px #22d2 inset;
 		-webkit-appearance: button;
 		-moz-appearance: button;
 		appearance: button;
@@ -895,7 +909,7 @@
 		appearance: button;
 	}
 	#resume:hover {
-		background-color: rgba(158, 210, 191, .9);
+		background-color: rgba(18, 44, 52, .9);
 	}
 	/* Icon */
 	#contact .icons {
@@ -977,7 +991,7 @@
 	/* About me section */
 	#about_me {
 		text-align: center;
-		padding: 2em 0em 0em 0em;
+		padding: 3em 0em 0em 0em;
 	}
 	#about_me h1 {
 		font-weight: 600;
@@ -998,6 +1012,8 @@
 		padding: 12em 0em;
 		max-height: 100px;
 		background: url(../images/banner.jpg) no-repeat center;
+		filter: blur(3px);
+  		-webkit-filter: blur(3px);
 		background-size: cover;
 		color: #fff;
 	}
