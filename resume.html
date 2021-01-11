@@ -33,12 +33,10 @@
 	<!-- Header -->
 		<div id="header">
 			<div class="container">
-					
 				<!-- Logo -->
 					<div id="logo">
 						<h1><a href="index.html">Paul M</a></h1>
 					</div>
-				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -49,13 +47,13 @@
 							<li><a href="visual_media.html">Visual Media</a></li>
 						</ul>
 					</nav>
-
 			</div>
 		</div>
 		<div style="margin: auto; background-color: #2E0F15; height: 5px; width: 1260px;"></div>
-	<div class="container" style="font-family: Georgia;">
+	<!-- Main Container -->
+	<div style="font-family: Georgia; position: relative; margin: 0 auto; width: 1120px; height:1200px;">
 		<!-- Sidebar -->
-		<div id="sidebar" style="width:350px; height:900px; background-color: #E0EBE7; float: left; display: inline-block;">
+		<div id="sidebar" style="width:350px; background-color: #E0EBE7; height: 1200px; float: left; display: block;">
 			<!-- Avatar -->
 			<div id="avatar">
 				<span class="picture"> 
@@ -97,7 +95,7 @@
 				</div>
 			</div>
 			<!-- Education History-->
-			<div class="horizontal_container" style="height: 200px; margin-top: 10px; text-align: center; ">
+			<div class="horizontal_container" style="height: 270px; margin-top: 10px; text-align: center; ">
 				<div class="side-banner">
 					<h1>Education</h1>
 				</div>
@@ -114,22 +112,91 @@
 					</li>
 				</ul>
 			</div>
+			<!-- Technical Skills -->
+			<div class="horizontal_container" style="height: 200px; margin-top: 10px; text-align: left;">
+				<div class="side-banner">
+					<h1>Tech Skills</h1>
+				</div>
+				<div style="margin: 0 auto; width: 200px; padding-top: 30px;">
+					<p style="font-size: 1.2em; position: relative; left: -10px; top: 33px;"><b>Python</b></p>
+					<ul id="skills-list" style="padding-left: 20px; position: relative; left: 80px; bottom: 30px;">
+						<li>Data Analysis</li>
+						<li>Data Engineering</li>
+						<li>Data Dashboards</li>
+						<li>Image Processing</li>
+					</ul>
+				</div>
+			</div>
 		</div>
+		<div style="width:25px; height:900px; float:left;display:inline-block;"></div>
 		<!-- Main Content -->
-		<div id="main_text" style="width: 755px; height: 900px; align-items: left; display:inline-block; background-color:#fff;">
+		<div id="main_text" style=" padding-left: 20px; height: 900px; align-items: left; display:inline-block;">
 			<!-- Name -->
-			<div style="height: 220px;">
+			<div style="height: 260px;">
 				<div id="name-resume">
 					<h1>Paul McCabe</h1>
 				</div>
 				<h2 style="text-align: center; position: relative; top: 90px;">Data Science Intern / Student</h2>
 			</div>
-			<div class="main_container" style="height: 220px; background-color: #eee;">
-				<div class="main-banner" style="top:40px">
+			<!-- Work Experience -->
+			<div class="main_container" style="height: 220px;">
+				<div class="main-banner">
 					<h1>Work Experience</h1>
-					<div></div>
+				</div>
+				<!-- Data Science Intern -->
+				<div class="main-text-container">
+					<div class="split-text">
+						<span class="job-title"><b>Data Science Intern</b></span>
+						<span class="job-date">September 2020 – present</span>
+					</div>
+					<p class="company-and-location">Queen's Medical Center, <i>Honolulu HI</i></p>
+					<ul class="job-description">
+						<li>Created and documented a pipeline for patient bed alarm data using Python. Raw csv files were cleaned, standardized, and stored in a PostgreSQL database for easier access and higher scalability.</li>
+						<li>Designed an intuitive and accessible data dashboard using Dash to view bed alarm statistics for individual departments. 
+						</li>
+					</ul>
+				</div>
+				<!-- Computational Diagnostics Intern -->
+				<div class="main-text-container">
+					<div class="split-text">
+						<span class="job-title"><b>Computational Diagnostics Intern</b></span>
+						<span class="job-date">May 2019 – September 2019</span>
+					</div>
+					<p class="company-and-location">Center for Computational Imaging and Personalized Diagnostics, <i>Cleveland OH</i></p>
+					<ul class="job-description">
+						<li>Developed an algorithm that uses CT scans to model the airway, bronchioles, and cancerous growths separately in 3D.</li>
+						<li>These models can be used to predict diagnostics such as malignant vs benign tumors and prevent unnecessary cancer treatments, recognize tumors early, and model the growth rate of tumors.
+						</li>
+					</ul>
+				</div>
+				<!-- xLab Research Assistant -->
+				<div class="main-text-container">
+					<div class="split-text">
+						<span class="job-title"><b>Research Assistant, xLab</b></span>
+						<span class="job-date">August 2019 – May 2020</span>
+					</div>
+					<p class="company-and-location">Weatherhead School of Management, <i>Cleveland OH</i></p>
+					<ul class="job-description">
+						<li>Served as the undergraduate representative for xLab, a new on-campus initiative that provides digital innovation solutions for large legacy companies through teams of undergraduate and graduate students.</li>
+						<li>Produced marketing material and assisted with events such as quarterly meetings and the Digital Futures Conference.
+						</li>
+					</ul>
+				</div>
+				<!-- Engineering Technician -->
+				<div class="main-text-container">
+					<div class="split-text">
+						<span class="job-title"><b>Engineering Technician Intern</b></span>
+						<span class="job-date">June 2018 – August 2018</span>
+					</div>
+					<p class="company-and-location">Subaru Telescope, Akamai Workforce Initiative, <i>Hilo HI</i></p>
+					<ul class="job-description">
+						<li>Designed wiring diagrams and setup documentation of a coolant monitoring system for the National Astronomical Observatory of Japan, specifically a 50-million-dollar instrument known as the Prime Focus Spectrograph.</li>
+						<li>Installed 23 coolant modules at the summit, ensuring instrument functionality and measurement accuracy. Spectrograph data collected will advance our current understanding of Dark Matter and Dark Energy in the universe.
+						</li>
+					</ul>
 				</div>
 			</div>
+			<!-- Coding Projects -->
 			<div class="main_container" style="height: 200px;">
 				
 			</div>

@@ -51,16 +51,43 @@
 	-moz-appearance: button;
 	appearance: button;
 }
-
+#skills-list {
+}
+#skills-list li {
+	list-style-type: disc;
+}
 /***** Main Content *****/
-.main-container {
-	width: 650px;
+.split-text {
+	display: flex;
+	justify-content: space-between;
+}
+.main-text-container {
+	padding: 10px 0px 0px 0px;
+	width: 710px;
+}
+
+.job-title {
+	font-size: 1.3em;
+}
+.job-date {
+	font-size: 1.1;
+}
+.company-and-location {
+	font-size: 1.1em;
+	padding-bottom: 10px;
+}
+.job-description {
+	padding-left: 20px;
+}
+
+.job-description li {
+	list-style-type: disc;
 }
 /* Main Banner */
 .main-banner {
 	position: relative;
 	text-align: center;
-	width: 650px;
+	width: 720px;
 	margin: 0 auto;
 	background-color: #E0EBE7;
 }
