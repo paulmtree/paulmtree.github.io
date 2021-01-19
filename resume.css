@@ -56,6 +56,31 @@
 #skills-list li {
 	list-style-type: disc;
 }
+
+#interests {
+	margin: 0 auto;
+}
+#interests ul {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	column-gap: 15px;
+}
+#interests ul li {
+	text-align: left;
+	position: relative;
+	display: inline-block;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+}
+#interests ul li a {
+	display: block;
+
+}
+#interests ul li img {
+	width: 2.2em;
+	padding-top: 10px;
+}
 /***** Main Content *****/
 .split-text {
 	display: flex;
@@ -69,10 +94,17 @@
 .job-title {
 	font-size: 1.3em;
 }
+.job-title-activities {
+	font-size: 1.3em;
+}
 .job-date {
 	font-size: 1.1;
 }
 .company-and-location {
+	font-size: 1.1em;
+	padding-bottom: 10px;
+}
+.company-and-location-activities {
 	font-size: 1.1em;
 	padding-bottom: 10px;
 }
