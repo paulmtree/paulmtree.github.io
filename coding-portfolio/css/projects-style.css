@@ -1,0 +1,20 @@
+.title p {
+	position: relative;
+	bottom: 300px;
+	left: 100px;
+	font-weight: 2em;
+	font-family: Georgia;
+	color: #fff;
+	text-align: left;
+	font-size: 100px;
+	flex-wrap: wrap;
+}
+#picture-header img {
+	z-index:-1;
+	display: block;
+	width: 100%;
+}
+#picture-extender {
+	height: 1000px;
+	background: linear-gradient(#000, #1B1A1F)
+}

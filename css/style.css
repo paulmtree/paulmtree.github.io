@@ -304,7 +304,7 @@
 			display: inline-block;
 			margin-top: 0.5em;
 			padding: 0.50em 1.5em;
-			background: #e95d3c;
+			background-color: rgba(18, 44, 52, 1);
 			border-radius: 6px;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -317,12 +317,27 @@
 			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			cursor: pointer;
 		}
+		.button-transition {
+			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+		}
 
 			.button:hover
 			{
-				background: #de3d27;
+			background-color: rgba(18, 44, 52, .8);
 				color: #FFF !important;
 			}
+		#nav li:hover a {
+			transition: ease-in-out all .4s; 
+    		-moz-transition: ease-in-out all .4s;
+    		-webkit-transition: ease-in-out all .4s;
+    		background: #2E0F15; 
+			border-radius: 5px;
+			color: #FFFFFF;
+		}
 
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -1039,6 +1054,13 @@
 		font-size: 1.6em;
 	}
 
+/*********************************************************************************/
+/* Marketing                                                                     */
+/*********************************************************************************/
+	.marketing-image a img {
+		width: 275px;
+		height: 150px;
+	}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
