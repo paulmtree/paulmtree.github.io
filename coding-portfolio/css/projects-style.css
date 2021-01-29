@@ -9,6 +9,42 @@
 	font-size: 100px;
 	flex-wrap: wrap;
 }
+.bar1 {
+	width: 120px;
+	height: 6px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 490px;
+	left: 73px;
+}
+.bar2 {
+	width: 6px;
+	height: 120px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 375px;
+	left: -50px;
+}
+.bar3 {
+	width: 6px;
+	height: 120px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 360px;
+	left: 720px;
+}
+.bar4 {
+	width: 120px;
+	height: 6px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 358px;
+	left: 597px;
+}
 #picture-header img {
 	z-index:-1;
 	display: block;
