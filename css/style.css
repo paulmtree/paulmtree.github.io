@@ -17,7 +17,9 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
-
+	a:hover {
+    	text-decoration: none;
+	}
 	
 	body,input,textarea,select
 	{
@@ -222,7 +224,7 @@
 			
 			ul.default a:hover
 			{
-				text-decoration: underline;
+				text-decoration: none !important;
 			}
 
 		ul.style1
@@ -840,7 +842,6 @@
 
 			#nav li.active a
 			{
-				border-bottom: 3px solid white; 
 				color: #FFF;
 			}
 
@@ -879,42 +880,47 @@
 			display: inline-block;
 			padding: 0.4em;
 			position: absolute;
-			right: 250px;
-			bottom: 103px;
+			right: 20%;
+			bottom: 143px;
 			border: solid 1px #bbb;
-			height: 32.6em;
-			width: 25em;
+			height: 29.2em;
+			width: 22.5em;
 			background-color: rgba(0,0,0,1);
 		}
 
 			.index-picture img {
 				position: relative;
 				width: 100%;
-				transition: all ease .7s;
-				height: 31.6em;
+				height: 28.2em;
 			}
 			.index-picture img.hover-img {
-				padding: 0.4em;
+				padding: 0.4em .4em 0 .4em;
 				background-color: rgba(0,0,0,1);
 				position: absolute;
 				top: 0;
 				left: 0;
 				opacity: 0;
-				height: 32.4em;
+				height: 28.6em;
 			}
 			.index-picture:hover img.hover-img{
 				opacity: 1;
+				transition: all ease .7s;
 			}
 			.index-picture:hover img {
 				opacity: 0;
+				transition: all ease .7s;
 			}
-	
+	#hover {
+		position: relative;
+		display: inline-block;
+		float: left;
+	}
 	/* Name */
 	#index-name {
 		width: 600px;
 		position: absolute;
-		left: 21%;
-		bottom: 50%;
+		left: 18%;
+		bottom: 45%;
 		text-align: center;
 	}
 	#name {
@@ -1037,16 +1043,18 @@
 	#about_me {
 		background-color: #000;
 		text-align: center;
-		padding: 2em 3em 2em 3em;
+		padding: 1em 3em 0em 3em;
 		color: #eee;
+		height: 250px;
 	}
 	#about_me h1 {
 		font-weight: 600;
 		font-size: 1.5em;
-		padding: .7em 1em 0em 0em;
+		padding: 0.5em 1em 0em 0em;
 	}
 	#about_me p {
 		font-size: 1.4em;
+		padding-top: .3em;
 	}
 	
 /*********************************************************************************/
@@ -1057,7 +1065,7 @@
 	{
 		position: relative;
 		height: 800px;
-		background: url(../images/backgroundlines.jpg) no-repeat center;
+		background: url(../images/background3.jpg) no-repeat center;
 		
 		
 		background-size: cover;
@@ -1099,6 +1107,81 @@
 	.subtitle {
 		padding-bottom: 10px;
 		font-size: 18px;
+	}
+	.column {
+		float: left;
+		width: 50%;
+		height: 600px;
+	}
+	
+	.interests-img a img {
+		bottom: 10px;
+		height: 540px;
+		display: inline-block;
+		position: relative;
+	}
+
+	.interests-text {
+		position: relative;
+		display: inline-block;
+		padding-left: 30px;
+		width: 60%;
+		top: 200px;
+	}
+	.interests-name {
+		text-decoration: none;
+		font-size: 50px;
+		color: #fff;
+		padding-bottom: .4em;
+	}
+	.text-underline {
+		width: 80px;
+		height: 5px;
+		background-color: #fff;
+		margin-top: 10px 0 15px 0;
+		transition: width .5s ease, background-color .5s ease;
+    	-moz-transition: width .5s ease, background-color .5s ease;
+    	-webkit-transition: width .5s ease, background-color .5s ease;
+	}
+	.interests-desc {
+		padding-top: 15px;
+		color: #eee;
+		font-size: 20px;
+	}
+	.interests-text a:hover .text-underline {
+		width: 80%;
+		transition: width .5s ease, background-color .5s ease;
+    	-moz-transition: width .5s ease, background-color .5s ease;
+    	-webkit-transition: width .5s ease, background-color .5s ease;
+	}
+	.more-button {
+		text-transform: uppercase;
+		position: relative;
+		top: 40px;
+		margin: 0 auto;
+		letter-spacing: 0.1em;
+		font-size: 1.4em;
+		color: #fff;
+		padding: 2px 20px 2px 20px;
+		line-height: 50px;
+		word-break: break-all;
+		border-radius: 5px;
+		box-shadow: 0px 0px 0px 2px #fff inset;
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration: none !important;
+	}
+	.more-button:hover {
+		background-color: rgba(200, 200, 200, .2);
+		transition: width .5s ease, background-color .5s ease;
+    	-moz-transition: width .5s ease, background-color .5s ease;
+    	-webkit-transition: width .5s ease, background-color .5s ease;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
 	}
 /*********************************************************************************/
 /* Marketing                                                                     */
