@@ -1,3 +1,12 @@
+/* Header */
+#banner {
+	background: url(../../images/DSC_6298-2.jpg);
+	background-size: cover;
+	height: 700px;
+}
+#header {
+	height: 400px;
+}
 .title p {
 	position: relative;
 	bottom: 300px;

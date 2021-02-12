@@ -934,26 +934,26 @@
 		}
 	/* Resume Button */
 	.resume-button {
-		-webkit-appearance: button;
-		-moz-appearance: button;
-		appearance: button;
+		display: block;
+		padding-top: 50px;
+		height: 40px;
+		top: 40px;
 	}
 	#resume-text {
 		text-transform: uppercase;
 		position: relative;
-		top: 40px;
+
+		
 		margin: 0 auto;
 		letter-spacing: 0.1em;
 		font-size: 1.4em;
 		color: #fff;
-		padding: 2px 20px 2px 20px;
+		padding: 15px 20px 15px 20px;
+		box-shadow: 0px 0px 0px 2px #fff inset;
 		line-height: 50px;
 		word-break: break-all;
 		border-radius: 5px;
-		box-shadow: 0px 0px 0px 2px #fff inset;
-		-webkit-appearance: button;
-		-moz-appearance: button;
-		appearance: button;
+		
 		text-decoration: none;
 	}
 	#resume-text:hover {

@@ -1,6 +1,6 @@
 /*rgba(18, 44, 52, 1)*/
 #banner {
-	background: rgba(18, 44, 52, .95);
+	background: #0A0A0A;
 }
 #header {
 	height: 140px;
@@ -31,7 +31,7 @@
 	text-align: center;
 	width: 250px;
 	margin: 0 auto;
-	background-color: rgba(18, 44, 52, 1);
+	background-color: #212121;
 }
 .side-banner h1 {
 	color: #fff;
@@ -49,7 +49,7 @@
 #contact-info ul li a{
 	font-size: 1.4em;
 	letter-spacing: .1em;
-	color: rgba(18, 44, 52, 1);
+	color: #212121;
 }
 #contact-info ul li p {
 	display: inline-block;
@@ -86,6 +86,7 @@
 }
 #interests ul li a {
 	display: block;
+	font-size: 1.2em;
 
 }
 #interests ul li img {
@@ -132,10 +133,10 @@
 	text-align: center;
 	width: 720px;
 	margin: 0 auto;
-	background-color: #E0EBE7;
+	background-color: #BFBFBF;
 }
 .main-banner h1 {
-	color: rgba(18, 44, 52, 1);
+	color: 212121;
 	font-size: 1.4em;
 	padding: 8px 20px 6px 20px;
 }
