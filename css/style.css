@@ -340,7 +340,7 @@
 /* Powered by Font Awesome by Dave Gandy | http://fontawesome.io                 */
 /* Licensed under the SIL OFL 1.1 (font), MIT (CSS)                              */
 /*********************************************************************************/
-
+/*
 	.fa
 	{
 		text-decoration: none;
@@ -762,7 +762,7 @@
 		.fa-wheelchair:before{content:"\f193"}
 		.fa-vimeo-square:before{content:"\f194"}
 		.fa-turkish-lira:before,.fa-try:before{content:"\f195"}
-
+*/
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/

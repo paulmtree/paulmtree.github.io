@@ -1,6 +1,6 @@
 /*rgba(18, 44, 52, 1)*/
 #banner {
-	background: #0A0A0A;
+	background: linear-gradient(#1A1A1A, #3A3A3A);
 }
 #header {
 	height: 140px;

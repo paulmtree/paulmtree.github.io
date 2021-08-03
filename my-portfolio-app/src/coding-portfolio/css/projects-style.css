@@ -1,0 +1,65 @@
+/* Header */
+#banner {
+	background: url(../../images/DSC_6298-2.jpg);
+	background-size: cover;
+	height: 700px;
+}
+#header {
+	height: 400px;
+}
+.title p {
+	position: relative;
+	bottom: 300px;
+	left: 100px;
+	font-weight: 2em;
+	font-family: Georgia;
+	color: #fff;
+	text-align: left;
+	font-size: 100px;
+	flex-wrap: wrap;
+}
+.bar1 {
+	width: 120px;
+	height: 6px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 490px;
+	left: 73px;
+}
+.bar2 {
+	width: 6px;
+	height: 120px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 375px;
+	left: -50px;
+}
+.bar3 {
+	width: 6px;
+	height: 120px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 360px;
+	left: 720px;
+}
+.bar4 {
+	width: 120px;
+	height: 6px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	bottom: 358px;
+	left: 597px;
+}
+#picture-header img {
+	z-index:-1;
+	display: block;
+	width: 100%;
+}
+#picture-extender {
+	height: 1000px;
+	background: linear-gradient(#000, #1B1A1F)
+}
